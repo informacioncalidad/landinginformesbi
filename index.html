@@ -1,110 +1,147 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gestion con el Corazon</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <style>
-        :root {
-            --primary-color: #3366cc;
-        }
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .navbar, .footer {
-            background-color: var(--primary-color);
-            color: white;
-        }
-        .card {
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-        }
+      :root {
+        --primary-color: #3366cc;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .navbar,
+      .footer {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      .card {
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+      }
+      .image {
+        height: 100px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                  <img src="imagenes/Logo-Subred-Centro-Oriente.png" alt="Logo">
-                </a>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/logo.png" alt="Logo" />
+          </a>
+        </div>
+      </nav>
     </header>
 
     <main class="container my-5">
-        <p class="text-center">Conozca la producción de anlisis de datos realizada desde la Subred Centro oriente, sobre diferentes temas de interés.</p>
-        <h1 class="text-center mb-5">Gestion con el Corazon</h1>
-        
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Tablero Capacitaciones BPSP</h5>
-                        <p class="card-text">
-                            Acceso a la información consolidada cualitativa y cuantitativamente, de las capacitaciones realizadas a los colaboradores en relación a Buenas Prácticas de Seguridad del Paciente en la Subred CO.
-                        </p>
-                        <a href="#" class="btn btn-primary">Detalles</a>
-                    </div>
-                </div>
+      <p class="text-center">
+        Conozca la producción de anlisis de datos realizada desde la Subred
+        Centro oriente, sobre diferentes temas de interés.
+      </p>
+      <h1 class="text-center mb-5">Más COnfianza más bienestar</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Tablero Capacitaciones BPSP</h5>
+              <img class="image mb-3" src="imagenes/online-learning.png"/>
+              <p class="card-text">
+                Acceso a la información consolidada cualitativa y
+                cuantitativamente, de las capacitaciones realizadas a los
+                colaboradores en relación a Buenas Prácticas de Seguridad del
+                Paciente en la Subred CO.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Detalles</a>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Tablero Seguridad del Paciente</h5>
-                        <p class="card-text">Este entorno tiene como objetivo presentar un análisis del estado actual de los eventos adversos reportados en la subred integrada de servicios de salud centro oriente E.S.E.</p>
-                        <a href="#" class="btn btn-primary">Detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Tablero Documentación</h5>
-                        <p class="card-text">Este entorno tiene como objetivo presentar un análisis del estado actual de la documentación en la subred integrada de servicios de salud centro oriente E.S.E.</p>
-                        <a href="#" class="btn btn-primary">Detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Tablero referenciación</h5>
-                        <p class="card-text">XXXXXXXXXXXX</p>
-                        <a href="#" class="btn btn-primary">Detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Tablero Auditorias Historias Clínicas</h5>
-                        <p class="card-text">Este entorno tiene como objetivo presentar un análisis del estado actual de los indicadores de las auditorias de historias clínicas en la subred integrada de servicios de salud centro oriente E.S.E.</p>
-                        <a href="#" class="btn btn-primary">Detalles</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Tablero Suficiencia Personal</h5>
-                        <p class="card-text">Este entorno tiene como objetivo presentar un análisis del estado de la gestión en la suficiencia integrada de servicios de salud centro oriente E.S.E.</p>
-                        <a href="#" class="btn btn-primary">Detalles</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Tablero Seguridad del Paciente</h5>
+              <img class="image mb-3" src="imagenes/foster-family.png"/>
+              <p class="card-text">
+                Este entorno tiene como objetivo presentar un análisis del
+                estado actual de los eventos adversos reportados en la subred
+                integrada de servicios de salud centro oriente E.S.E.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Tablero Documentación</h5>
+              <img class="image mb-3" src="imagenes/document.png"/>
+              <p class="card-text">
+                Este entorno tiene como objetivo presentar un análisis del
+                estado actual de la documentación en la subred integrada de
+                servicios de salud centro oriente E.S.E.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Tablero referenciación</h5>
+              <img class="image mb-3" src="imagenes/medical-record.png"/>
+              <p class="card-text">XXXXXXXXXXXX</p>
+              <a href="#" class="btn btn-primary mt-auto">Detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Tablero Auditorias Historias Clínicas</h5>
+              <img class="image mb-3" src="imagenes/form.png"/>
+              <p class="card-text">
+                Este entorno tiene como objetivo presentar un análisis del
+                estado actual de los indicadores de las auditorias de historias
+                clínicas en la subred integrada de servicios de salud centro
+                oriente E.S.E.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Detalles</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <div class="card-body d-flex flex-column align-items-center">
+              <h5 class="card-title text-center">Tablero Suficiencia Personal</h5>
+              <img class="image mb-3" src="imagenes/doctor.png"/>
+              <p class="card-text">
+                Este entorno tiene como objetivo presentar un análisis del
+                estado de la gestión en la suficiencia integrada de servicios de
+                salud centro oriente E.S.E.
+              </p>
+              <a href="#" class="btn btn-primary mt-auto">Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="footer mt-auto py-3">
-        <div class="container text-center">
-            <span>© 2024 Subred Centro oriente. Todos los derechos reservados.</span>
-        </div>
+      <div class="container d-flex flex-column align-items-center">
+        <img src="imagenes/logo-alcaldia.png" class="mb-2" />
+        <span>© 2024 Subred Centro oriente. Todos los derechos reservados.</span>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
